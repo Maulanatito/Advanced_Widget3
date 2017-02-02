@@ -4,6 +4,10 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
 
+    dataBinding {
+        enabled = true
+    }
+
     defaultConfig {
         applicationId "xirpl508172635.project.smktelkom_mlg.sch.id.advancedwidget3"
         minSdkVersion 15
